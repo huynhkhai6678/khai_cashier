@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "index": "khai_cashier/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "khai_cashier/favicon.ico",
+        "khai_cashier/index.html",
+        "khai_cashier/main.6c6a68741daccc16cc7d.js",
+        "khai_cashier/polyfills.c6871e56cb80756a5498.js",
+        "khai_cashier/runtime.ec2944dd8b20ec099bf3.js",
+        "khai_cashier/styles.020a72ef8ba14163ed87.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "khai_cashier/assets/icons/icon-128x128.png",
+        "khai_cashier/assets/icons/icon-144x144.png",
+        "khai_cashier/assets/icons/icon-152x152.png",
+        "khai_cashier/assets/icons/icon-192x192.png",
+        "khai_cashier/assets/icons/icon-384x384.png",
+        "khai_cashier/assets/icons/icon-512x512.png",
+        "khai_cashier/assets/icons/icon-72x72.png",
+        "khai_cashier/assets/icons/icon-96x96.png",
+        "khai_cashier/assets/img/main.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "khai_cashier/assets/icons/icon-128x128.png": "e09090cdd47d1bd5adc5b2ebd05d60255f783d32",
+    "khai_cashier/assets/icons/icon-144x144.png": "bb3846da4a1da3d8fd637d52f3623bab2845ec61",
+    "khai_cashier/assets/icons/icon-152x152.png": "3837c3d6226ac186f8ca87a0b710b4ff2a316bc1",
+    "khai_cashier/assets/icons/icon-192x192.png": "3b2e42629c98657b37a475e123bca36768684a49",
+    "khai_cashier/assets/icons/icon-384x384.png": "63076f66301989271eff6363b823c5b4eb0370ae",
+    "khai_cashier/assets/icons/icon-512x512.png": "463d56fb31c0d4af59621825ef21f6d8b364125a",
+    "khai_cashier/assets/icons/icon-72x72.png": "9ce4dbcde6964f433bc38099e42de96a1057c039",
+    "khai_cashier/assets/icons/icon-96x96.png": "28ff7012ade73c833c31c3fb2b4a35f60d547398",
+    "khai_cashier/assets/img/main.png": "0dba3b8c3eccc6e455934f0ef1a5cc751d8eb12a",
+    "khai_cashier/favicon.ico": "f5ef36aadb4fba34a3ca80cacb40538712fc4454",
+    "khai_cashier/index.html": "f5f5d6e4a6cf79facdb67b5e89957baadfc168ba",
+    "khai_cashier/main.6c6a68741daccc16cc7d.js": "8851ddb1de72dc8fe1c5386b7722fb3eed4966b9",
+    "khai_cashier/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "khai_cashier/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "khai_cashier/styles.020a72ef8ba14163ed87.css": "da6c39415e1b25a93b95a14fc8a1cac72196c09d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
